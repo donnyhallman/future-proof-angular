@@ -31,3 +31,7 @@ I don't claim to know very much about AngularJS, but I'm providing some resource
 
 [Components, ES6, modules, removing $scope, etc. ](https://www.airpair.com/angularjs/posts/preparing-for-the-future-of-angularjs)
 
+### Large Example/Tutorial
+The following goes through the creation of an Angular 1.5 application using ES6. It uses multiple videos with some associated text to go through example. I'd imagine it would take a while to go through (as I didn't take the time to watch it all). However, it looks to be be a good example as well for showing the type of approach we should take with Angular to best future-proof our application(s).
+
+[Angular 1.5 with ES6 Tutorial](tps://thinkster.io/angularjs-es6-tutorial)
