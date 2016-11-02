@@ -17,6 +17,17 @@ I don't claim to know very much about AngularJS, but I'm providing some resource
 
 ### Writing Components
 [Simple example of converting to component-based design](http://juristr.com/blog/2016/06/from-ngcontroller-to-components/)
+
 [Example of 1.4 directive to 1.5 component to 2.0 component](https://www.sitepoint.com/upgrade-to-angular-components/)
 
+[Example of create a Angular 1.5 component-based application] (http://blog.grossman.io/angular-1-component-based-architecture-2/)
+
+[Short Example of writing a 1.5 component and short discussion on lifecycle hooks](https://tests4geeks.com/build-angular-1-5-component-angularjs-tutorial/)
+
+### Future Proofing Best Practices
+[Angular 1 best practices in preparation of Angular 2](https://www.excella.com/insights/preparing-to-migrate-from-angular-1-x-to-angular-2-0)
+
+[ES6, Components, and other practices for future proofing](http://orizens.com/wp/topics/5-steps-to-prepare-your-angular-1-code-to-angular-2/)
+
+[Components, ES6, modules, removing $scope, etc. ](https://www.airpair.com/angularjs/posts/preparing-for-the-future-of-angularjs)
 
