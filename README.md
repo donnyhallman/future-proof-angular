@@ -4,16 +4,21 @@ This is just a quick reference guide to blogs and articles that can give recomme
 
 ## TLDR;
 You should consider all of the following when preparing your application for an eventual Angular 2+ upgrade:
-* Use component-based design
-* Convert controllers to components
+* **Use component-based design and leverage Angular 1.5+ design**
 * Use ES6  (Ecmascript 2015)
 * Remove/Avoid $scope
-* Use ES6 modules over angular#module where possible
-* Use angular#service over angular#factory (using ES6 classes)
 * Use Rule of 1: One component per file
 
 ## Reference Material
 I don't claim to know very much about AngularJS, but I'm providing some resources of the various blogs/articles that show practices to write components in Angular 1 and other future proofing techniques. Unfortunately, you will find some inconsistencies between them all in attempting to put together a coherent plan of attack. Use your best judgement, but I hope that after reviewing all the references an approach will form to best write the application for future upgrades.
+
+### Best Overview/Advice
+This article includes a great overview of the changes and includes lots of reference material to best write an Angular 1.5+ application for the future. At least read this article and much of linked materials in the article. If you only read this article and reference material in it, you should be quite prepared.
+
+[Best Overall 1.5+ Future Article](https://toddmotto.com/future-of-angular-1-x)
+
+[Decent style guide for Writing Angular 1.5+ applications](https://github.com/toddmotto/angular-styleguide)
+
 
 ### Writing Components
 [Simple example of converting to component-based design](http://juristr.com/blog/2016/06/from-ngcontroller-to-components/)
@@ -30,6 +35,8 @@ I don't claim to know very much about AngularJS, but I'm providing some resource
 [ES6, Components, and other practices for future proofing](http://orizens.com/wp/topics/5-steps-to-prepare-your-angular-1-code-to-angular-2/)
 
 [Components, ES6, modules, removing $scope, etc. ](https://www.airpair.com/angularjs/posts/preparing-for-the-future-of-angularjs)
+
+[How to spot old Angular code when Googling (and what to avoid)](http://www.codelord.net/2016/11/23/spotting-outdated-angular-1-dot-x-posts/)
 
 ### Large Example/Tutorial
 The following goes through the creation of an Angular 1.5 application using ES6. It uses multiple videos with some associated text to go through example. I'd imagine it would take a while to go through (as I didn't take the time to watch it all). However, it looks to be be a good example as well for showing the type of approach we should take with Angular to best future-proof our application(s).
